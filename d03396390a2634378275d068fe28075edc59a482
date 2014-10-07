@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a1b2928_5269aebd",
+        "filename": "audio/snd_soc_msm_2x_Fusion3",
+        "patchSetId": 2
+      },
+      "lineNbr": 697,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2014-10-07T05:47:27Z",
+      "side": 1,
+      "message": "Is this needed? The comment for the commit doesn\u0027t appear to make mention of this.",
+      "revId": "d03396390a2634378275d068fe28075edc59a482",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
