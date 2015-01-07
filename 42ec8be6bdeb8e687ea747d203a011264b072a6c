@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7aa08908_913a2135",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2015-01-07T06:56:48Z",
+      "side": 1,
+      "message": "You shouldn\u0027t need this. jf-common doesn\u0027t have it anymore (its been moved to the variant repos that need it).\n\nIf you\u0027re getting errors related to a folder missing for it now, a clobber should fix it.",
+      "revId": "42ec8be6bdeb8e687ea747d203a011264b072a6c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
