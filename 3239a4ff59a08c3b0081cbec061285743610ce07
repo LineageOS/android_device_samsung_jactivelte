@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7aa08908_55e37e05",
+        "filename": "device-proprietary-files.txt",
+        "patchSetId": 4
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-01-09T09:24:12Z",
+      "side": 1,
+      "message": "Isn\u0027t mm-qcamera-daemon already defined in jf-common?\n\nAlso, the rest of the camera test binaries aren\u0027t strictly speaking necessary.",
+      "revId": "3239a4ff59a08c3b0081cbec061285743610ce07",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7aa08908_95ede6f1",
+        "filename": "device-proprietary-files.txt",
+        "patchSetId": 4
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-01-09T09:24:12Z",
+      "side": 1,
+      "message": "These camera libraries should also already be defined in jf-common no?",
+      "revId": "3239a4ff59a08c3b0081cbec061285743610ce07",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
