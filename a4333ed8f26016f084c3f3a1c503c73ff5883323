@@ -16,6 +16,23 @@
       "revId": "a4333ed8f26016f084c3f3a1c503c73ff5883323",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7aa08908_ba829192",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2015-01-09T09:16:42Z",
+      "side": 1,
+      "message": "this is unecessary. its not in jf-common anymore",
+      "revId": "a4333ed8f26016f084c3f3a1c503c73ff5883323",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
