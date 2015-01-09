@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7aa08908_15457616",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-01-09T08:54:16Z",
+      "side": 1,
+      "message": "It irritates me greatly to find that _unsetting_ a flag is still necessary. This would imply that the common device setup is a little too common, and should be fixed.",
+      "revId": "a4333ed8f26016f084c3f3a1c503c73ff5883323",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
