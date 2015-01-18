@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a9d85d2_85484d5d",
+        "filename": "cm.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 5681
+      },
+      "writtenOn": "2015-01-18T10:18:46Z",
+      "side": 1,
+      "message": "4.4.4 or 4.4.2?",
+      "revId": "9e6b6611506923bde5a30e830d9b776a3e179f06",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
