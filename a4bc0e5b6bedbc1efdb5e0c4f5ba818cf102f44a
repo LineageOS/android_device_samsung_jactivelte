@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fad55976_27e7e2e5",
+        "filename": "overlay/packages/apps/Camera2/res/values/config.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-01-29T13:57:04Z",
+      "side": 1,
+      "message": "You want histogram support?",
+      "revId": "a4bc0e5b6bedbc1efdb5e0c4f5ba818cf102f44a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
