@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3f1d235d_b06f53c4",
+        "filename": "keylayout/gpio-keys.kl",
+        "patchSetId": 2
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-09-04T00:05:45Z",
+      "side": 1,
+      "message": "You can probably drop WAKE from everything else too.",
+      "revId": "da38c201848a7cfc4cd800c3244738925ea6617e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
