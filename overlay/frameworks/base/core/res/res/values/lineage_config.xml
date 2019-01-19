@@ -1,0 +1,4 @@
+<resources>
+    <!-- Button backlight -->
+    <integer name="config_buttonBrightnessSettingDefault">0</integer>
+</resources>
