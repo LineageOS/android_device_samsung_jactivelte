@@ -1,9 +1,4 @@
 # system.prop for jactivelte
+#
 
-# cannot take spaces
-rild.libargs=-d /dev/smd0
-rild.libpath=/system/lib/libsec-ril.so
-
-ro.telephony.default_network=0
-telephony.lteOnCdmaDevice=0
-DEVICE_PROVISIONED=1
+ro.lineage.build.vendor_security_patch=2017-04-18
