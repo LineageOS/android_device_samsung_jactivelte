@@ -1,4 +1,5 @@
-# Copyright (C) 2011 The Android Open Source Project
+# Copyright (C) 2013-2016 The CyanogenMod Project
+# Copyright (C) 2017-2019 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -11,24 +12,25 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
- 
-#
-# This file is the build configuration for a full Android
-# build for maguro hardware. This cleanly combines a set of
-# device-specific aspects (drivers) with a device-agnostic
-# product configuration (apps). Except for a few implementation
-# details, it only fundamentally contains two inherit-product
-# lines, full and maguro, hence its name.
-#
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
-# Inherit from jactiveltexx device
+
+# Inherit from jactivelte device
 $(call inherit-product, device/samsung/jactivelte/device.mk)
 
-# Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := full_jactivelte
+# Inherit some common LineageOS stuff.
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+
+PRODUCT_NAME := lineage_jactivelte
 PRODUCT_DEVICE := jactivelte
 PRODUCT_BRAND := samsung
-PRODUCT_MANUFACTURER := samsung
+PRODUCT_MANUFACTURER := Samsung
 PRODUCT_MODEL := GT-I9295
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRODUCT_NAME=jactivelte \
+    TARGET_DEVICE=jactivelte \
+    PRIVATE_BUILD_DESC="jactiveltexx-user 5.0.1 LRX22C I9295XXUDPF1 release-keys"
+
+BUILD_FINGERPRINT := "samsung/jactiveltexx/jactivelte:5.0.1/LRX22C/I9295XXUDPF1:user/release-keys"

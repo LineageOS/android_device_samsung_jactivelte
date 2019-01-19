@@ -1,4 +1,5 @@
-# Copyright (C) 2009 The CyanogenMod Project
+# Copyright (C) 2013-2016 The CyanogenMod Project
+# Copyright (C) 2017-2019 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -12,28 +13,19 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-#
-# This file sets variables that control the way modules are built
-# thorughout the system. It should not be used to conditionally
-# disable makefiles (the proper mechanism to control what gets
-# included in a build is to use PRODUCT_PACKAGES in a product
-# definition file).
-#
+# Inherit from jf-common
+-include device/samsung/jf-common/BoardConfigCommon.mk
 
-# inherit from common JF
-include device/samsung/jf-common/BoardConfigCommon.mk
-
-# inherit from the proprietary version
+# Inherit from proprietary vendor
 -include vendor/samsung/jactivelte/BoardConfigVendor.mk
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := jactive,jactivelte,jactiveltexx,i9295,GT-I9295
 
-# Bluetooth
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/jactivelte/bluetooth
-
 # Kernel
-TARGET_KERNEL_CONFIG := jactive_eur_defconfig
+TARGET_KERNEL_VARIANT_CONFIG := jactive_eur_defconfig
 
-# Camera
-TARGET_PROVIDES_CAMERA_HAL := true
+# Partitions
+BOARD_CACHEIMAGE_PARTITION_SIZE := 367001600
+BOARD_SYSTEMIMAGE_PARTITION_SIZE := 2304770048
+BOARD_USERDATAIMAGE_PARTITION_SIZE := 12771655680
