@@ -19,6 +19,9 @@
 # Inherit from proprietary vendor
 -include vendor/samsung/jactivelte/BoardConfigVendor.mk
 
+# Set default locale
+PRODUCT_LOCALES := en-GB
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := jactive,jactivelte,jactiveltexx,i9295,GT-I9295
 
