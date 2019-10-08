@@ -19,6 +19,9 @@ $(call inherit-product, device/samsung/jf-common/jf-common.mk)
 # Also get non-open-source specific aspects if available
 $(call inherit-product-if-exists, vendor/samsung/jactivelte/jactivelte-vendor.mk)
 
+# Set default locale
+PRODUCT_LOCALES := en-GB
+
 # Device overlay
 DEVICE_PACKAGE_OVERLAYS += device/samsung/jactivelte/overlay
 
