@@ -5,3 +5,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # RIL
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.telephony.default_network=9
+
+# Set default locale
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.product.locale=en-GB
