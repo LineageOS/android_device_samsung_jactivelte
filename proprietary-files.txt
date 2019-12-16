@@ -6,7 +6,6 @@ vendor/lib/libaudcal.so
 vendor/lib/libcsd-client.so
 
 # Camera
-vendor/bin/mm-qcamera-daemon
 vendor/lib/hw/camera.vendor.msm8960.so
 vendor/lib/libTsAccm.so
 vendor/lib/libTsAwb.so
